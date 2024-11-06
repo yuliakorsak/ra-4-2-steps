@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stepsApp {
+  display: block;
+  padding: 27px 24px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.stepsApp_form {
+  display: flex;
+  justify-content: space-between;
+  width: 517px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.stepsApp_label {
+  display: inline-block;
+  max-width: 193px;
+}
+
+.stepsApp_form_input {
+  display: inline-block;
+  align-self: flex-end;
+  box-sizing: border-box;
+  height: 50px;
+  min-width: 85px;
+  padding: 16px 11px;
+  margin: 16px 0 0 0;
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
+
+.stepsApp_table {
+  box-sizing: border-box;
+  width: 530px;
+  padding: 0px;
+  text-align: center;
+}
+
+.stepsApp_table thead {
+  display: block;
+  border: none;
+  margin: 23px;
+}
+
+.stepsApp_table tr {
+  display: block;
+  margin: 18px 0;
+  padding: 0;
+}
+
+.stepsApp_table tbody {
+  display: block;
+  margin: 0;  
+  padding: 0 28px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+}
+
+.stepsApp_table_date {
+  text-align: left;
+  width: 135px;
+}
+
+.stepsApp_table_km {
+  width: 170px;
+}
+
+.stepsApp_table_controls {
+  width: 135px;
+  text-align: right;
+}
+
+.stepsApp_button {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
